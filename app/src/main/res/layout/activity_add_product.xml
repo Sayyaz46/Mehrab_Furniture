@@ -64,7 +64,7 @@
         android:id="@+id/btn_insert_product"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:backgroundTint="#187D29"
+        android:backgroundTint="#7D4A18"
         android:textSize="26dp"
         android:text="Insert Product" />
 

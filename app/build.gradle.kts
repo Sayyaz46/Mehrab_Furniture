@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.aventeraco"
+    namespace = "com.example.mehrabfurniture"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.aventeraco"
+        applicationId = "com.example.mehrabfurniture"
         minSdk = 24
         targetSdk = 34
         versionCode = 2

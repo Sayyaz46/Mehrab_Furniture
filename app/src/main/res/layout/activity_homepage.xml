@@ -3,16 +3,22 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:backgroundTint="#FF187D29">
+    android:background="@color/white"
+    >
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="70dp"
-        android:backgroundTint="#FF187D29">
+        android:background="#7D4A18"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:backgroundTint="#7D4A18">
 
         <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="200dp"
+
+
+            android:layout_height="30dp"
             android:background="@drawable/logo" />
     </RelativeLayout>
 
@@ -31,13 +37,13 @@
                 android:layout_height="match_parent"
                 android:orientation="vertical">
 
+                <!-- Horizontal Scrollable Products -->
                 <ImageView
                     android:layout_width="400dp"
                     android:layout_height="200dp"
                     android:layout_gravity="center"
                     android:background="@drawable/main1" />
 
-                <!-- Horizontal Scrollable Products -->
                 <HorizontalScrollView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -67,16 +73,16 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Classic Runner"
+                                android:text="Classic Sofa"
                                 android:gravity="center"
                                 android:textAlignment="center"
-                                android:textColor="#187D29"
+                                android:textColor="#7D4A18"
                                 android:textStyle="bold" />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="BDT 1500"
+                                android:text="BDT 15000"
                                 android:gravity="center"
                                 android:textAlignment="center" />
                         </LinearLayout>
@@ -100,16 +106,16 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Speedster Pro"
+                                android:text="Speedster Sofa"
                                 android:gravity="center"
                                 android:textAlignment="center"
-                                android:textColor="#187D29"
+                                android:textColor="#7D4A18"
                                 android:textStyle="bold" />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="BDT 1800"
+                                android:text="BDT 18000"
                                 android:gravity="center"
                                 android:textAlignment="center" />
                         </LinearLayout>
@@ -133,16 +139,16 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Urban Sneakers"
+                                android:text="Urban Sofa"
                                 android:gravity="center"
                                 android:textAlignment="center"
-                                android:textColor="#187D29"
+                                android:textColor="#7D4A18"
                                 android:textStyle="bold" />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="BDT 1300"
+                                android:text="BDT 13000"
                                 android:gravity="center"
                                 android:textAlignment="center" />
                         </LinearLayout>
@@ -166,16 +172,16 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Trail Blazer"
+                                android:text="Rocket BED"
                                 android:gravity="center"
                                 android:textAlignment="center"
-                                android:textColor="#187D29"
+                                android:textColor="#7D4A18"
                                 android:textStyle="bold" />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="BDT 1000"
+                                android:text="BDT 10000"
                                 android:gravity="center"
                                 android:textAlignment="center" />
                         </LinearLayout>
@@ -199,16 +205,16 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Mountain Hiker"
+                                android:text="Classic Sofa"
                                 android:gravity="center"
                                 android:textAlignment="center"
-                                android:textColor="#187D29"
+                                android:textColor="#7D4A18"
                                 android:textStyle="bold" />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="BDT 1200"
+                                android:text="BDT 15000"
                                 android:gravity="center"
                                 android:textAlignment="center" />
                         </LinearLayout>
@@ -232,16 +238,16 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Beach Sandals"
+                                android:text="Speedster Sofa"
                                 android:gravity="center"
                                 android:textAlignment="center"
-                                android:textColor="#187D29"
+                                android:textColor="#7D4A18"
                                 android:textStyle="bold" />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="BDT 800"
+                                android:text="BDT 18000"
                                 android:gravity="center"
                                 android:textAlignment="center" />
                         </LinearLayout>
@@ -265,16 +271,16 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Sports Boost"
+                                android:text="Urban Sofa"
                                 android:gravity="center"
                                 android:textAlignment="center"
-                                android:textColor="#187D29"
+                                android:textColor="#7D4A18"
                                 android:textStyle="bold" />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="BDT 1700"
+                                android:text="BDT 13000"
                                 android:gravity="center"
                                 android:textAlignment="center" />
                         </LinearLayout>
@@ -298,16 +304,16 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Luxury Loafers"
+                                android:text="Rocket Bed"
                                 android:gravity="center"
                                 android:textAlignment="center"
-                                android:textColor="#187D29"
+                                android:textColor="#7D4A18"
                                 android:textStyle="bold" />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="BDT 1400"
+                                android:text="BDT 14000"
                                 android:gravity="center"
                                 android:textAlignment="center" />
                         </LinearLayout>
@@ -321,13 +327,13 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:text="View all products"
-                    android:backgroundTint="@color/green"/>
+                    android:backgroundTint="#7D4A18"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:padding="10dp"
-                    android:textColor="#187D29"
+                    android:textColor="#7D4A18"
                     android:textStyle="bold"
                     android:textSize="26dp"
                     android:text="JUST ADDED PRODUCTS!"/>
@@ -342,14 +348,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
-                    android:background="#FF187D29"
+                    android:background="#7D4A18"
                     android:layout_marginTop="16dp"
                     android:padding="16dp">
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="What are barefoot shoes?"
+                        android:text="Why Mehrab Furniture is the Best Choice for Your Home and Office?"
                         android:textColor="#FFFFFF"
                         android:textSize="20sp"
                         android:textStyle="bold"
@@ -358,7 +364,15 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Barefoot shoes are designed to mimic the natural shape and function of the human foot. By mimicking nature's design, they give your feet strength and balance you never thought possible.\n\nUnlike regular shoes, which restrict your movement and posture, barefoot shoes give your feet room to breathe, flex, and feel. Say goodbye to those squishy, cushion-filled uncomfortable shoes!"
+                        android:text="Mehrab Furniture stands out as the ultimate choice for home and office spaces, offering a perfect blend of exceptional craftsmanship, high-quality materials, and timeless yet modern designs that cater to various styles and preferences. With a strong focus on durability, comfort, and aesthetics, every piece is meticulously crafted using premium wood, metal, and upholstery to ensure long-lasting quality. Our extensive range of furniture includes stylish sofa sets, sturdy dining tables, ergonomic office chairs, and custom-made solutions tailored to meet your specific needs. Mehrab Furniture combines affordable luxury with innovative design, providing customers with elegant and functional pieces that elevate any space without compromising on quality. Whether you're looking to upgrade your living room, workspace, or dining area, our commitment to excellence, precision, and customer satisfaction makes us the best choice for those who value both beauty and durability in their furniture.
+
+
+
+
+
+
+
+"
                         android:textColor="#FFFFFF"
                         android:textSize="16sp"/>
                 </LinearLayout>
@@ -376,7 +390,7 @@
                     android:text="Stay tuned for our promotions and offers!"
                     android:layout_gravity="center"
                     android:gravity="center"
-                    android:textColor="#FF187D29"
+                    android:textColor="#7D4A18"
                     android:textSize="26sp"
                     android:textStyle="bold"
                     android:paddingTop="8dp"/>

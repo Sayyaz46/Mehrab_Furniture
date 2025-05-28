@@ -25,7 +25,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Add Product"
-            android:backgroundTint="@color/green"
+            android:backgroundTint="#7D4A18"
             android:textColor="@android:color/white"
             android:layout_margin="8dp"
             android:padding="16dp"
@@ -40,7 +40,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Update Product"
-            android:backgroundTint="@color/green"
+            android:backgroundTint="#7D4A18"
             android:textColor="@android:color/white"
             android:layout_margin="8dp"
             android:padding="16dp" />
@@ -61,7 +61,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Delete Product"
-            android:backgroundTint="@color/green"
+            android:backgroundTint="#7D4A18"
             android:textColor="@android:color/white"
             android:layout_margin="8dp"
             android:padding="16dp" />
@@ -73,7 +73,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="View Product"
-            android:backgroundTint="@color/green"
+            android:backgroundTint="#7D4A18"
             android:textColor="@android:color/white"
             android:layout_margin="8dp"
             android:padding="16dp" />
